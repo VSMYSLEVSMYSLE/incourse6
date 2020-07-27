@@ -1,7 +1,6 @@
 body{
-    background-image: url(../img/Random-Binary-Numbers.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: white;
+    background-image: url(../img/binary.jpg);
 }
 
 .container{
@@ -11,9 +10,12 @@ body{
     text-align: center;
     backdrop-filter: blur(8px);
     border-radius: 3%;
+    box-shadow: 0 0 20px 10px rgb(91, 204, 198);
 }
 
 img{
     width: 10%;
+    border: 1px black solid;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 3px rgb(91, 204, 198);
 }
-
