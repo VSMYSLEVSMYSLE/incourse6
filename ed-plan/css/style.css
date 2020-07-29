@@ -1,10 +1,23 @@
+@font-face{
+    font-family: "Hive";
+    src: url(../fonts/Hive.otf);
+}
+
+@font-face{
+    font-family: "h2-ru";
+    src: url(../fonts/17940.otf);
+}
+
 body{
     background-color: white;
     background-image: url(../img/binary.jpg);
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 21;
 }
 
 .container{
-    width: 50%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -18,4 +31,22 @@ img{
     border: 1px black solid;
     border-radius: 50%;
     box-shadow: 0 0 5px 3px rgb(91, 204, 198);
+}
+
+.fa-cannabis{
+    font-size: 60px;
+}
+
+h1{
+    font-family: "Hive";
+    font-size: 50px;
+}
+
+h2{
+    font-family: "Hive";
+    font-size: 36px;
+}
+
+.h2-ru{
+    font-family: "h2-ru";
 }
