@@ -5,28 +5,35 @@
 
 @font-face{
     font-family: "h2-ru";
-    src: url(../fonts/17940.otf);
+    src: url(../fonts/Blinkers.otf);
 }
 
 body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 21;
+}
+
+main{
     background-color: white;
     background-image: url(../img/binary.jpg);
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    font-size: 21;
+    position: fixed;
+    width: 100%;
+    height: 100%;
 }
 
 .container{
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto;
     text-align: center;
+    font-weight: bold;
     backdrop-filter: blur(8px);
     border-radius: 3%;
     box-shadow: 0 0 20px 10px rgb(91, 204, 198);
 }
 
-img{
+.lesson-img{
     width: 10%;
     border: 1px black solid;
     border-radius: 50%;
