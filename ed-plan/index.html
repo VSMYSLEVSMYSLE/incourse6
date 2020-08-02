@@ -30,14 +30,38 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <main>
-            <div class="container">
+        <div class="main-bg">
+            <a class="arrow-ap" href="#nav-anchor" title="Вверх"><i class="fas fa-arrow-up"></i></a>
+        </div>
+        <div class="container">
+            <header>
+                <a href="#"id="nav-anchor"></a>
+                <nav>
+                    <ul class="nav">
+                        <li class="nav__list"><a href="#" class="nav__link">О&nbsp;себе</a></li>
+                        <li class="nav__list"><a href="#" class="nav__link">Контакты</a></li>
+                        <li class="nav__list"><a href="#" class="nav__link">Уроки</a>
+                            <ul class="nav__lessons">
+                                <li class="nav__list"><a href="#lesson-1">Lesson&nbsp;1</a></li>
+                                <li class="nav__list"><a href="#lesson-2">Lesson&nbsp;2</a></li>
+                                <li class="nav__list"><a href="#lesson-3">Lesson&nbsp;3</a></li>
+                                <li class="nav__list"><a href="#lesson-4">Lesson&nbsp;4</a></li>
+                                <li class="nav__list"><a href="#lesson-5">Lesson&nbsp;5</a></li>
+                                <li class="nav__list"><a href="#lesson-6">Lesson&nbsp;6</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="clear"></div>
+            <main>
                 <h1>INCOURSE6</h1>
-                <section class="myself-info">
+                <section>
                     <h2 class="h2-ru">Немного о себе</h2>
                     <p>Hello world! Меня зовут Виталик, я хочу стать веб-разработчиком.</p>
                 </section>
                 <section>
+                    <a href="#" id="lesson-1"></a>
                     <h2>Lesson 1</h2>
                     <p>
                         На первом уроке мы познакомились с Git - системой контроля версий.
@@ -47,6 +71,7 @@
                     </a>
                 </section>
                 <section>
+                    <a href="#" id="lesson-2"></a>
                     <h2>Lesson-2</h2>
                     <p>На втором уроке мы узнали принципы работы всмирной паутины, разобрались со структурой html-документа и познакомились с несколькими тегами.</p>
                     <a href="https://ru.wikipedia.org/wiki/Всемирная_паутина" target="_blank">
@@ -54,9 +79,38 @@
                     </a>
                 </section>
                 <section>
-                    <i class="fas fa-cannabis"></i>
+                    <a href="#" id="lesson-3"></a>
+                    <h2>Lesson-3</h2>
                 </section>
-            </div>
-        </main>
+                <section>
+                    <a href="#" id="lesson-4"></a>
+                    <h2>Lesson-4</h2>
+                </section>
+                <section>
+                    <a href="#" id="lesson-5"></a>
+                    <h2>Lesson-5</h2>
+                </section>
+                <section>
+                    <a href="#" id="lesson-6"></a>
+                    <h2>Lesson-6</h2>
+                    <p>На шестом уроке разобрали позиционирование. Сложно, нужно разобраться лучше</p>
+                    <a href="http://htmlbook.ru/css/position">
+                        <img class="lesson-img" src="img/bricks.jpg" alt="Bricks">
+                    </a>
+                    <div class="lesson6__box">
+                        <p>Наведи на меня мышь, плз (:</p>
+                        <div class="lessonbox__small lesson6__box1"></div>
+                        <div class="lessonbox__small lesson6__box2"></div>
+                        <div class="lessonbox__small lesson6__box3"></div>
+                        <div class="lessonbox__small lesson6__box4"></div>
+                        <div class="lessonbox__small lesson6__box5"></div>
+                        <div class="lessonbox__small lesson6__box6"></div>
+                    </div>
+                </section>
+            </main>
+            <footer>
+
+            </footer>
+        </div>
     </body>
 </html>
