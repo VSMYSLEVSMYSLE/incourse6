@@ -46,6 +46,7 @@ ul{
 .main-bg{
     background-color: white;
     background-image: url(../img/binary.jpg);
+    background-position: 0 0;
     position: fixed;
     left: 0;
     top: 0;
@@ -100,7 +101,6 @@ ul{
 
 .nav__lessons li{
     background-color: rgb(230, 224, 224);
-    backdrop-filter: blur(8px);
 }
 
 .nav li:hover > .nav__lessons{
